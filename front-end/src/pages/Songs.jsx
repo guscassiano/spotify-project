@@ -1,4 +1,4 @@
-import Main from "../components/MAin";
+import Main from "../components/Main";
 
 const Songs = () => {
   return (
