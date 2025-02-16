@@ -1,0 +1,22 @@
+{
+  "name": "projeto_spotify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":
+      "npm install --prefix back-end && npm install --prefix front-end && npm run build --prefix front-end",
+    "start": "npm run start --prefix back-end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guscassiano/spotify-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guscassiano/spotify-project/issues"
+  },
+  "homepage": "https://github.com/guscassiano/spotify-project#readme"
+}
