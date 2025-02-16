@@ -10,7 +10,7 @@ const PORT = 3000
 app.use(cors())
 
 app.get('/api/', (request, response) => {
-    response.send('Hello whole World!')
+    response.send('The API endpoints are /artists and /songs!')
 })
 
 app.get('/api/artists', async(request, response) => {
